@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TestResults\438d56be-9ced-48b9-a554-7794be35a6a0\" />
+    <Folder Include="TestResults\4525b5dd-082e-4f3f-93d9-c44436e1bcf2\" />
+    <Folder Include="TestResults\4b85a8cb-4629-4f75-9f31-1f6be9795f87\" />
+    <Folder Include="TestResults\9550eff7-44d5-49c7-8982-ed410a3ef42a\" />
+    <Folder Include="TestResults\cc0c9b3d-18c6-46dc-8bfa-dd5bc7735b41\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_42_55\In\TOAD256\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_42_55\Out\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_43_02\In\TOAD256\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_43_02\Out\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_43_08\In\TOAD256\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_43_08\Out\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_43_50\In\TOAD256\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_43_50\Out\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_44_06\In\TOAD256\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_44_06\Out\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_44_11\In\TOAD256\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_44_11\Out\" />
+    <Folder Include="TestResults\Deploy_ToAd 2022-12-03 14_58_04\In\TOAD256\" />
+    <Folder Include="TestResults\fa4384b5-4c70-4179-a95d-7b95d721bced\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SingletonRepository\SingletonRepository.csproj" />
+  </ItemGroup>
+
+</Project>
